@@ -24,7 +24,6 @@
         ul {
             width: 100%;
             padding: 0;
-            right: 180%;
             height: 600px;
             list-style: none;
             display: flex;
@@ -62,15 +61,18 @@
     }
 
     .rootnav1 {
+        height: 100%;
         transition: 300ms ease;
-        height: 0%;
-        width: 0%;
+        width: 0px;
         background-color: #fff;
-
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
         ul {
-            right: 150%;
-
+            display: none;
         }
+       
     }
 
     .menu {

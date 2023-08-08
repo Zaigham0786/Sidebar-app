@@ -23,7 +23,6 @@
 .rootmain .rootnav ul {
   width: 100%;
   padding: 0;
-  right: 180%;
   height: 600px;
   list-style: none;
   display: flex;
@@ -55,13 +54,16 @@
   border-top-right-radius: 50px;
 }
 .rootmain .rootnav1 {
+  height: 100%;
   transition: 300ms ease;
-  height: 0%;
-  width: 0%;
+  width: 0px;
   background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .rootmain .rootnav1 ul {
-  right: 150%;
+  display: none;
 }
 .rootmain .menu {
   right: 3%;
